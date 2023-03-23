@@ -1,0 +1,42 @@
+.users {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
+}
+.user {
+  width: 200px;
+  background: black;
+  margin-left: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.user-name {
+  color: #fff;
+  text-align: center;
+}
+
+.user-info {
+  display: flex;
+  font-size: 14px;
+}
+.label {
+  width: 70px;
+  color: gray;
+}
+.info {
+  color: #fff;
+}
+
+@media (max-width: 600px) {
+  .users {
+    display: flex;
+    flex-direction: column;
+    overflow-x: none;
+    align-items: center;
+  }
+  .user {
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+}
