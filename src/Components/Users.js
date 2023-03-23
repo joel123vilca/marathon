@@ -38,7 +38,7 @@ const Users = () => {
               <div>
                 <img
                   src={`https://dummyimage.com/200x200/024983/ffffff&text=${user.website}`}
-                  alt="user image"
+                  alt="user"
                 ></img>
               </div>
               <h2 className="user-name">
